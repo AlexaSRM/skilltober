@@ -13,14 +13,14 @@ const LandingPage = () => {
         <span className="inline-flex">
           <ServicesLeft />
         </span>
-        <h1 className="inline-flex  text-center md:px-20  md:text-5xl text-2xl leading-loose">
+        <h1 className="inline-flex  text-center md:px-20  md:text-5xl text-2xl leading-loose font-bold">
           What is Skilltober?
         </h1>
         <span className="inline-flex">
           <ServicesRight />
         </span>
       </div>
-      <div className=" md:text-3xl text-xl md:px-40  px-6 pt-6 lg:pb-32 pb-20 md:pb-28">
+      <div className=" md:text-3xl text-xl md:px-40  px-6 pt-6 lg:pb-32 pb-20 md:pb-28 text-center font-font-normal">
         <p className="md:pb-10 pb-4">
           Skilltober is something that is organized by Alexa Developers SRM and
           GitHub Community SRM.
@@ -34,7 +34,7 @@ const LandingPage = () => {
           lacus at est volutpat fermentum vel sagittis dui.
         </p>
       </div>
-      <div className="flex lg:flex-row flex-col lg:pl-16 lg:pr-48 pb-20 space-y-6 ">
+      <div className="flex lg:flex-row flex-col lg:px-20 px-5 pb-20 space-y-6 text-center">
         <div className="md:text-3xl text-xl flex  lg:pl-10 lg:pr-7 md:px-14 lg:pt-6">
           <span className="pr-4"><Contributions/></span>
           <p>
