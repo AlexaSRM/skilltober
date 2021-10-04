@@ -7,5 +7,5 @@ const HeroPage = () => {
          <Services/>
         </div>
     )
-
-export default HeroPage;
+    }
+ export default HeroPage;
