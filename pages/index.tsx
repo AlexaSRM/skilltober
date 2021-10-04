@@ -1,12 +1,11 @@
-import type { NextPage } from 'next'
 import LandingPage from "../components/LandingPage/landingPage";
+import Services from "../components/ServicesComp/services";
+const HeroPage = () => {
+    return (
+        <div className="bg-BGMain w-full h-full">
+         <LandingPage/>
+         <Services/>
+        </div>
+    )
 
-const Home: NextPage = () => {
-  return (
-    <div className="bg-BGMain w-full h-full">
-      <LandingPage />
-    </div>
-  )
-}
-
-export default Home
+export default HeroPage;
