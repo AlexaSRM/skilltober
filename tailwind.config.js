@@ -1,15 +1,15 @@
 module.exports = {
-  purge: ['./pages/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
+  purge: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
-        BGMain: "#2C291E",
-        TextMain: "#F4F0E1",
-        TextSub: "#F74700",
+        bgMain: "#2B3531",
+        textPrimary: "#F4F0E1",
+        textSecondary: "#F74700",
       },
       fontFamily: {
-        'primary': ['Lato'],
+        primary: ["Lato"],
       },
     },
   },
@@ -17,4 +17,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};

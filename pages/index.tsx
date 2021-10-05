@@ -1,13 +1,13 @@
-import Footer from "../components/Footer/Footer";
-import LandingPage from "../components/LandingPage/landingPage";
+import Footer from "../components/footer/footer";
+import LandingPage from "../components/landingPage/landingPage";
 import MainPage from "../components/mainPage/MainPage";
-import Services from "../components/ServicesComp/services";
+import SpeakerList from "../components/speakerList/speakerList";
 const HeroPage = () => {
   return (
-    <div className="bg-BGMain w-full h-full">
+    <div className="bg-bgMain w-full h-full">
       <MainPage />
       <LandingPage />
-      <Services />
+      <SpeakerList />
       <Footer />
     </div>
   );
