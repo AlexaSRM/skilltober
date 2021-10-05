@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import LandingPage from "../components/LandingPage/landingPage";
 import MainPage from "../components/mainPage/MainPage";
 import Services from "../components/ServicesComp/services";
@@ -7,6 +8,7 @@ const HeroPage = () => {
       <MainPage />
       <LandingPage />
       <Services />
+      <Footer />
     </div>
   );
 };
