@@ -22,7 +22,7 @@ const LandingPage = () => {
           <ServicesRight />
         </span>
       </div>
-      <div className=" md:text-3xl text-xl md:px-40  px-6 pt-6 lg:pb-32 pb-20 md:pb-28 text-center font-font-normal">
+      <div className=" md:text-2xl text-xl md:px-40  px-6 pt-6 lg:pb-24 pb-20 md:pb-28 text-center font-font-normal">
         <p className="md:pb-10 pb-4">
           Skilltober is something that is organized by Alexa Developers SRM and
           GitHub Community SRM.
@@ -36,21 +36,21 @@ const LandingPage = () => {
           lacus at est volutpat fermentum vel sagittis dui.
         </p>
       </div>
-      <div className="flex lg:flex-row flex-col lg:px-20 px-5 pb-20 space-y-6 text-center">
-        <div className="md:text-3xl text-xl flex  lg:pl-10 lg:pr-7 md:px-14 lg:pt-6">
-          <span className="pr-4">
+      <div className="flex lg:flex-row flex-col lg:px-20 px-5 pb-20 space-y-6 text-center ">
+        <div className="md:text-2xl text-xl flex  lg:pl-10 lg:pr-4 md:px-14 lg:pt-6  xl:-space-x-16 ">
+          <span className="pr-2  xl:pl-20">
             <Contributions />
           </span>
-          <p>
+          <p className="xl:pr-24 xl:pl-20 pt-3 ">
             Learn how Open Source Contribution can result in an amazing career
             for you
           </p>
         </div>
-        <div className="md:text-3xl text-xl flex  lg:pl-7 lg:pr-12 md:px-14 pb-10 ">
-          <span className="pr-4">
+        <div className="md:text-2xl text-xl flex  lg:pl-3 lg:pr-12 md:px-14  pb-10 xl:-space-x-16  ">
+          <span className="pr-1 ">
             <Trophy />
           </span>
-          <p>
+          <p  className="xl:px-20">
             Top 3 participants get amazing swags delivered right to their homes
           </p>
         </div>
