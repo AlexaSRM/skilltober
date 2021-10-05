@@ -14,7 +14,14 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    scrollbar: ['rounded','hover'],
+      extend: {
+      padding: ['hover'],
+      overflow: ['hover'],
+
+    },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar')
+  ],
 };
