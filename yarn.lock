@@ -1206,6 +1206,11 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
+"@typeform/embed@^1.19.1":
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-1.19.1.tgz#728e2ff733351fb9a99a938edb4ce5563f3e6ef3"
+  integrity sha512-9CzzgMBk0eFmWepJIvsAh1cPsCJ8RH+tX2kbmPMnMmq3jEFH5+O4PHF+GryVaZyHSdDz8DzwE5SsJmaKPxbv2Q==
+
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"

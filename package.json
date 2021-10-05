@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@svgr/webpack": "^5.5.0",
+    "@typeform/embed": "^1.19.1",
     "autoprefixer": "^10.3.6",
     "next": "11.1.2",
     "postcss": "^8.3.8",
