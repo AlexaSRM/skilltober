@@ -1,48 +1,48 @@
-import Alexadev from "../../public/assests/alexadev.svg";
-import GithubSrm from "../../public/assests/githubsrm.svg";
-import Heading from "../../public/assests/heading.svg";
-import SmallHeading from "../../public/assests/small-heading.svg";
-import Trophy from "../../public/assests/trophy.svg";
-import MainFlower from "../../public/assests/mainPage_flower.svg";
-import FlowerBottomHome from "../../public/assests/flowerbottomHome.svg";
-import FlowerBottomHome_sm from "../../public/assests/flowerBottom_sm.svg";
 import React from "react";
-import Button from "../button/Button";
+import Button from "../button/button";
+import SvgRenderer from "../svgRenderer/svgRenderer";
 
 const MainPage = () => {
   return (
-    <div className="text-TextMain font-primary relative h-screen w-full flex flex-col items-center">
-      <span className="md:block hidden bottom-1 absolute m-auto">
-        <MainFlower />
+    <div className="text-textPrimary font-primary relative h-screen w-full flex flex-col items-center">
+      <span className="bottom-1 absolute m-auto opacity-20 md:opacity-100">
+        <SvgRenderer filePath="/assets/mainPage_flower.svg" />
       </span>
 
-      <span className="md:block hidden top-1 absolute m-auto transform rotate-180">
-        <MainFlower />
+      <span className="top-1 absolute m-auto opacity-20 md:opacity-100 transform rotate-180">
+        <SvgRenderer filePath="/assets/mainPage_flower.svg" />
       </span>
 
       <div className="flex flex-col justify-between relative sm:mt-40 text-center mt-20">
         <div className="relative flex justify-between text-base sm:flex-row flex-col">
-          <span className="m-auto">
-            <Alexadev />
-          </span>
-          <span className="mx-6 my-6 sm:text-base text-lg">and</span>
-          <span className="m-auto">
-            <GithubSrm />
-          </span>
+          <div className="m-auto">
+            <div className="mx-5">
+              <SvgRenderer
+                filePath="/assets/alexadev.svg"
+                widthClassProperties="w-2/3 md:w-full"
+              />
+            </div>
+          </div>
+          <p className="mx-6 my-6 text-lg md:text-xl">and</p>
+          <div className="mx-auto">
+            <div className="mx-5">
+              <SvgRenderer
+                filePath="/assets/githubsrm.svg"
+                widthClassProperties="w-2/3 md:w-full"
+              />
+            </div>
+          </div>
         </div>
-        <span className="sm:text-lg sm:py-2 py-5 text-xl">presents</span>
+        <span className="text-lg py-2 md:py-5 md:text-xl">presents</span>
         <div className="relative flex justify-between text-xs">
-          <span className="hidden md:block py-5">
-            <Heading />
-          </span>
-          <span className="py-5 md:hidden m-auto">
-            <SmallHeading />
-          </span>
+          <div className="my-5 mx-auto w-3/4 md:w-full">
+            <SvgRenderer filePath="/assets/heading.svg" />
+          </div>
         </div>
-        <span className="py-5 text-2xl">22 October, 2021</span>
-        <span className="transform hover:scale-110">
+        <p className="py-10 text-3xl md:text-5xl">22 October, 2021</p>
+        <div className="py-10">
           <Button />
-        </span>
+        </div>
       </div>
     </div>
   );
