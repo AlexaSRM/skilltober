@@ -19,7 +19,7 @@ const Speaker: FunctionComponent<SpeakerPropsType> = ({
         <div className="m-auto pt-8 lg:pt-0">
           <img
             src={imagePath}
-            className="rounded-full w-24 md:w-36 lg:w-44 xl:w-80"
+            className="rounded-full w-24 md:w-36 lg:w-48 xl:w-64"
             alt={`${name} Image`}
           />
         </div>
