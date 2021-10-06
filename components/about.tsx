@@ -1,11 +1,11 @@
-import ServicesLeft from "../../public/assets/servicesleft.svg";
-import ServicesRight from "../../public/assets/servicesright.svg";
-import Contributions from "../../public/assets/contributions.svg";
-import Trophy from "../../public/assets/trophy.svg";
-import Flowerleft from "../../public/assets/flowerleft.svg";
-import FlowerBottomHome from "../../public/assets/flowerbottomHome.svg";
-import FlowerBottomHome_sm from "../../public/assets/flowerBottom_sm.svg";
-const LandingPage = () => {
+import ServicesLeft from "../public/assets/servicesleft.svg";
+import ServicesRight from "../public/assets/servicesright.svg";
+import Contributions from "../public/assets/contributions.svg";
+import Trophy from "../public/assets/trophy.svg";
+import Flowerleft from "../public/assets/flowerleft.svg";
+import FlowerBottomHome from "../public/assets/flowerbottomHome.svg";
+import FlowerBottomHomeSm from "../public/assets/flowerBottom_sm.svg";
+const About = () => {
   return (
     <div className="text-white font-primary relative">
       <span className="md:block hidden absolute top-1/2 left-0">
@@ -24,11 +24,16 @@ const LandingPage = () => {
       </div>
       <div className=" md:text-2xl text-xl md:px-40  px-6 pt-6 lg:pb-24 pb-20 md:pb-28 text-center font-font-normal">
         <p className="md:pb-10 pb-4">
-          Skilltober is something that is organized by Alexa Developers SRM and
-          GitHub Community SRM.
+          Skilltober is a speaker talk that is organized by Alexa Developers SRM
+          and GitHub Community SRM on 22 October 2021 at 6:00 PM (IST).
         </p>
         <p>
-        Ever wondered about the marvels of Open source? Now {"here's"} your chance! Skilltober is an event that opens a cornucopia of information about open source software, and {"here's"} the good news, it lasts all month!
+          Ever wondered about the marvels of Open Source Contribution and what
+          it can do for your career? Now here's your chance to learn all that is
+          to open source and career! Skilltober is an event that opens a
+          cornucopia of information about open source software contributions and
+          the impact it can have on your career objectives. Learn from the best
+          minds in the field and get started with open source with Skilltober!
         </p>
       </div>
       <div className="flex lg:flex-row flex-col lg:px-20 px-5 pb-20 space-y-6 text-center ">
@@ -45,7 +50,7 @@ const LandingPage = () => {
           <span className="pr-1 ">
             <Trophy />
           </span>
-          <p  className="xl:px-20">
+          <p className="xl:px-20">
             Top 3 participants get amazing swags delivered right to their homes
           </p>
         </div>
@@ -54,10 +59,10 @@ const LandingPage = () => {
         <FlowerBottomHome />
       </span>
       <span className="md:hidden block absolute bottom-0 right-0">
-        <FlowerBottomHome_sm />
+        <FlowerBottomHomeSm />
       </span>
     </div>
   );
 };
 
-export default LandingPage;
+export default About;

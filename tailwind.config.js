@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         bgMain: "#2B3531",
+        bgFooter: "#1F2623",
         textPrimary: "#F4F0E1",
         textSecondary: "#F74700",
       },
@@ -14,14 +15,11 @@ module.exports = {
     },
   },
   variants: {
-    scrollbar: ['rounded','hover'],
-      extend: {
-      padding: ['hover'],
-      overflow: ['hover'],
-
+    scrollbar: ["rounded", "hover"],
+    extend: {
+      padding: ["hover"],
+      overflow: ["hover"],
     },
   },
-  plugins: [
-    require('tailwind-scrollbar')
-  ],
+  plugins: [require("tailwind-scrollbar")],
 };
