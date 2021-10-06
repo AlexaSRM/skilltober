@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "../button/button";
-import SvgRenderer from "../svgRenderer/svgRenderer";
+import Button from "./button";
+import SvgRenderer from "./svgRenderer";
 
-const MainPage = () => {
+const Landing = () => {
   return (
     <div className="text-textPrimary font-primary relative h-screen w-full flex flex-col items-center">
       <span className="bottom-1 absolute m-auto opacity-20 md:opacity-100">
@@ -48,4 +48,4 @@ const MainPage = () => {
   );
 };
 
-export default MainPage;
+export default Landing;

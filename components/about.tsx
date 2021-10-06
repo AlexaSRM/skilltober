@@ -1,11 +1,11 @@
-import ServicesLeft from "../../public/assets/servicesleft.svg";
-import ServicesRight from "../../public/assets/servicesright.svg";
-import Contributions from "../../public/assets/contributions.svg";
-import Trophy from "../../public/assets/trophy.svg";
-import Flowerleft from "../../public/assets/flowerleft.svg";
-import FlowerBottomHome from "../../public/assets/flowerbottomHome.svg";
-import FlowerBottomHome_sm from "../../public/assets/flowerBottom_sm.svg";
-const LandingPage = () => {
+import ServicesLeft from "../public/assets/servicesleft.svg";
+import ServicesRight from "../public/assets/servicesright.svg";
+import Contributions from "../public/assets/contributions.svg";
+import Trophy from "../public/assets/trophy.svg";
+import Flowerleft from "../public/assets/flowerleft.svg";
+import FlowerBottomHome from "../public/assets/flowerbottomHome.svg";
+import FlowerBottomHomeSm from "../public/assets/flowerBottom_sm.svg";
+const About = () => {
   return (
     <div className="text-white font-primary relative">
       <span className="md:block hidden absolute top-1/2 left-0">
@@ -50,7 +50,7 @@ const LandingPage = () => {
           <span className="pr-1 ">
             <Trophy />
           </span>
-          <p  className="xl:px-20">
+          <p className="xl:px-20">
             Top 3 participants get amazing swags delivered right to their homes
           </p>
         </div>
@@ -59,10 +59,10 @@ const LandingPage = () => {
         <FlowerBottomHome />
       </span>
       <span className="md:hidden block absolute bottom-0 right-0">
-        <FlowerBottomHome_sm />
+        <FlowerBottomHomeSm />
       </span>
     </div>
   );
 };
 
-export default LandingPage;
+export default About;

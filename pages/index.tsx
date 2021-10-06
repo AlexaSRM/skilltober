@@ -1,12 +1,12 @@
-import Footer from "../components/footer/footer";
-import LandingPage from "../components/landingPage/landingPage";
-import MainPage from "../components/mainPage/MainPage";
-import SpeakerList from "../components/speakerList/speakerList";
-import Register from "../components/register/register";
+import Footer from "../components/footer";
+import LandingPage from "../components/about";
+import MainPage from "../components/landing";
+import SpeakerList from "../components/speakerList";
+import Register from "../components/register";
 
-const HeroPage = () => {
+const SitePage = () => {
   return (
-   <div className="bg-bgMain h-full w-full absolute overflow-hidden hover:overflow-y-auto hover:scrollbar-thin hover:scrollbar-thumb-bgMain hover:scrollbar-thumb-textSecondary hover:scrollbar-track-bgMain hover:scrollbar-thumb-rounded-full hover:scrollbar-track-rounded-full hover:scrollbar-rounded-full">
+    <div className="bg-bgMain h-full w-full absolute overflow-hidden hover:overflow-y-auto hover:scrollbar-thin hover:scrollbar-thumb-textSecondary hover:scrollbar-track-bgMain hover:scrollbar-thumb-rounded-full hover:scrollbar-track-rounded-full hover:scrollbar-rounded-full">
       <MainPage />
       <LandingPage />
       <SpeakerList />
@@ -15,4 +15,4 @@ const HeroPage = () => {
     </div>
   );
 };
-export default HeroPage;
+export default SitePage;
