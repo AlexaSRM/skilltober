@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="lg:flex-1 mx-10">
         <h1 className="text-xl">Alexa Developers SRM</h1>
         <h2 className="text-md">alexadevsrm.com</h2>
-        <div className="grid grid-cols-3 mt-4 w-8/12 mx-auto">
+        <div className="grid grid-cols-3 mt-4 w-5/12 mx-auto">
           <a
             href="https://www.instagram.com/alexadevsrm/"
             target="_blank"
@@ -29,7 +29,7 @@ const Footer = () => {
       <div className="lg:flex-1 lg:mt-0 mt-5 mx-10">
         <h1 className="text-xl">School of Computing</h1>
         <h2 className="text-md">SRM Institute of Science and Technology</h2>
-        <div className="grid grid-cols-2 mt-4 w-5/12 mx-auto">
+        <div className="grid grid-cols-2 mt-4 w-1/3 mx-auto">
           <a
             href="https://www.instagram.com/schoolofcomputingsrmist/"
             target="_blank"
@@ -49,7 +49,7 @@ const Footer = () => {
       <div className="lg:flex-1 lg:mt-0 mt-5 mx-10">
         <h1 className="text-xl">Github Community SRM</h1>
         <h2 className="text-md">githubsrm.tech</h2>
-        <div className="grid grid-cols-3 mt-4 w-8/12 mx-auto">
+        <div className="grid grid-cols-3 mt-4 w-5/12 mx-auto">
           <a
             href="https://www.instagram.com/githubsrm/"
             target="_blank"
