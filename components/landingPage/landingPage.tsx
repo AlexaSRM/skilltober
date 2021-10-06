@@ -31,21 +31,21 @@ const LandingPage = () => {
         Ever wondered about the marvels of Open source? Now {"here's"} your chance! Skilltober is an event that opens a cornucopia of information about open source software, and {"here's"} the good news, it lasts all month!
         </p>
       </div>
-      <div className="flex lg:flex-row flex-col lg:px-20 px-5 pb-20 space-y-6 text-center ">
-        <div className="md:text-2xl text-xl flex  lg:pl-10 lg:pr-4 md:px-14 lg:pt-6  xl:-space-x-16 ">
-          <span className="pr-2  xl:pl-20">
+      <div className="flex lg:flex-row flex-col lg:px-20 px-5 pb-20 space-y-6 text-center w-10/12 mx-auto">
+        <div className="md:text-2xl text-xl flex  lg:pl-10 lg:pr-4 md:px-14 lg:pt-6  xl:-space-x-16">
+          <span className="pr-6 xl:pr-0">
             <Contributions />
           </span>
-          <p className="xl:pr-24 xl:pl-20 pt-3 ">
+          <p className="xl:pr-12 xl:pl-20 pt-1 text-left">
             Learn how Open Source Contribution can result in an amazing career
             for you
           </p>
         </div>
         <div className="md:text-2xl text-xl flex  lg:pl-3 lg:pr-12 md:px-14  pb-10 xl:-space-x-16  ">
-          <span className="pr-1 ">
+          <span className="pr-6">
             <Trophy />
           </span>
-          <p  className="xl:px-20">
+          <p  className="xl:px-12 pt-1 text-left">
             Top 3 participants get amazing swags delivered right to their homes
           </p>
         </div>
