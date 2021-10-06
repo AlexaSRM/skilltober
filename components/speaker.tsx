@@ -19,11 +19,11 @@ const Speaker: FunctionComponent<SpeakerPropsType> = ({
         <div className="m-auto pt-8 lg:pt-0">
           <img
             src={imagePath}
-            className="rounded-full w-24 md:w-36 lg:w-48 xl:w-64"
+            className="rounded-full w-24 md:w-36 lg:w-48 xl:w-52"
             alt={`${name} Image`}
           />
         </div>
-        <div className="flex flex-col lg:ml-10 pr-10 pl-6">
+        <div className="flex flex-col lg:ml-10 pr-10 pl-6 w-full lg:w-11/12">
           <h1 className="pt-6 pb-3 md:text-3xl text-xl">{name}</h1>
           <h6 className="text-red-600 pb-5 md:text-base text-sm">
             {designation}

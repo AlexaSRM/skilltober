@@ -25,15 +25,15 @@ const speakerArray = [
     name: "Gita Alekhya Paul",
     designation: "Guest Speaker",
     description:
-      "Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing.",
+      "Gita Alekhya Paul is an undergraduate student from SRMIST, Kattankulathur. He is an MLH Fellowship alumni, GitHub Externship alumni and contributor to popular repositories like Amazon AWS Amplify and Hoppscotch. Gita is a keen cybersecurity student, and he is fond of making and breaking web applications. Ask him about Javascript, APIs, Hacking and Open-source!",
     imagePath: "/assets/gita.png",
   },
   {
-    name: "Aniruddha Chatterjee",
+    name: "Shivam Shekhar",
     designation: "Moderator",
     description:
       "Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing.",
-    imagePath: "/assets/gita.png",
+    imagePath: "/assets/shivam.jpeg",
   },
 ];
 
