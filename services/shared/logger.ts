@@ -1,5 +1,6 @@
 import pino from 'pino';
+import config from './config';
 const Logger = pino({
-    prettyPrint: {colorize: true}
+    prettyPrint: config.debugLevel ? {colorize: true} : false
 })
 export default Logger;
