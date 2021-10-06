@@ -28,12 +28,7 @@ const LandingPage = () => {
           GitHub Community SRM.
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis
-          diam at arcu elementum tristique in eleifend nulla. Aliquam efficitur
-          risus eget aliquet feugiat. In scelerisque mattis finibus. Aliquam
-          suscipit magna eu congue aliquet. Nam vel ipsum condimentum, ornare
-          odio id, eleifend orci. Fusce rutrum fermentum auctor. Donec dapibus
-          lacus at est volutpat fermentum vel sagittis dui.
+        Ever wondered about the marvels of Open source? Now {"here's"} your chance! Skilltober is an event that opens a cornucopia of information about open source software, and {"here's"} the good news, it lasts all month!
         </p>
       </div>
       <div className="flex lg:flex-row flex-col lg:px-20 px-5 pb-20 space-y-6 text-center ">
