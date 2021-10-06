@@ -29,8 +29,8 @@ const About = () => {
         </p>
         <p>
           Ever wondered about the marvels of Open Source Contribution and what
-          it can do for your career? Now here's your chance to learn all that is
-          to open source and career! Skilltober is an event that opens a
+          it can do for your career? Now here&apos;s your chance to learn all
+          that is to open source and career! Skilltober is an event that opens a
           cornucopia of information about open source software contributions and
           the impact it can have on your career objectives. Learn from the best
           minds in the field and get started with open source with Skilltober!
@@ -50,7 +50,7 @@ const About = () => {
           <span className="pr-6">
             <Trophy />
           </span>
-          <p  className="xl:px-12 pt-1 text-left">
+          <p className="xl:px-12 pt-1 text-left">
             Top 3 participants get amazing swags delivered right to their homes
           </p>
         </div>

@@ -59,6 +59,7 @@ const SpeakerList = () => {
             designation={speaker.designation}
             imagePath={speaker.imagePath}
             description={speaker.description}
+            key={speaker.name}
           />
         ))}
 
