@@ -24,16 +24,16 @@ const About = () => {
       </div>
       <div className=" md:text-2xl text-xl md:px-40  px-6 pt-6 lg:pb-24 pb-20 md:pb-28 text-center font-font-normal">
         <p className="md:pb-10 pb-4">
-          Skilltober is something that is organized by Alexa Developers SRM and
-          GitHub Community SRM.
+          Skilltober is a speaker talk that is organized by Alexa Developers SRM
+          and GitHub Community SRM on 22 October 2021 at 6:00 PM (IST).
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis
-          diam at arcu elementum tristique in eleifend nulla. Aliquam efficitur
-          risus eget aliquet feugiat. In scelerisque mattis finibus. Aliquam
-          suscipit magna eu congue aliquet. Nam vel ipsum condimentum, ornare
-          odio id, eleifend orci. Fusce rutrum fermentum auctor. Donec dapibus
-          lacus at est volutpat fermentum vel sagittis dui.
+          Ever wondered about the marvels of Open Source Contribution and what
+          it can do for your career? Now here's your chance to learn all that is
+          to open source and career! Skilltober is an event that opens a
+          cornucopia of information about open source software contributions and
+          the impact it can have on your career objectives. Learn from the best
+          minds in the field and get started with open source with Skilltober!
         </p>
       </div>
       <div className="flex lg:flex-row flex-col lg:px-20 px-5 pb-20 space-y-6 text-center ">
