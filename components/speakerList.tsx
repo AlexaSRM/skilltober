@@ -32,7 +32,7 @@ const speakerArray = [
     name: "Shivam Shekhar",
     designation: "Moderator",
     description:
-      "Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing.",
+      "Shivam Shekhar is an undergraduate student from SRMIST, Kattankulathur. Shivam is a keen UI/UX Designer, and he loves making applications better and appealing. You can talk to him about Design, Development, and Open-source!",
     imagePath: "/assets/shivam.jpeg",
   },
 ];
