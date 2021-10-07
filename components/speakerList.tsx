@@ -8,18 +8,18 @@ import FlowerRightSm from "../public/assets/flower_sm.svg";
 
 const speakerArray = [
   {
-    name: "Aniruddha Chatterjee",
+    name: "Rahul Dhawan",
     designation: "Guest Speaker",
     description:
-      "Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing.",
-    imagePath: "/assets/gita.png",
+      "Rahul Dhawan is currently working as a Security Engineer at Postman Inc. He is responsible for the security of Postman Documentation, Mock, and Integration Service. Being an open Souce enthusiast, he contributed to The Metasploit Project in GSoC 18' program and many contributions to other OSS projects. Founding member of WEclub, which aims to encourage and develop entrepreneurship spirit and guide the Entrepreneur mind who has begun their journey as an Entrepreneur.",
+    imagePath: "/assets/rahul.png",
   },
   {
-    name: "Aniruddha Chatterjee",
+    name: "Arkodyuti Saha",
     designation: "Guest Speaker",
     description:
-      "Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing. Aniruddha Chatterjee is a noob and knows nothing.",
-    imagePath: "/assets/gita.png",
+      "An open-source enthusiast who works at GitHub currently focusing on developer education. Previously have worked with organisations like Microsoft, GOJEK, and CISCO in landing their developer relations, product management & GTM strategies. The core has always been 'helping developers', working with product and engineering teams at scale.",
+    imagePath: "/assets/arkodyuti.png",
   },
   {
     name: "Gita Alekhya Paul",
@@ -32,8 +32,8 @@ const speakerArray = [
     name: "Shivam Shekhar",
     designation: "Moderator",
     description:
-      "Shivam Shekhar is an undergraduate student from SRMIST, Kattankulathur. Shivam is a keen UI/UX Designer, and he loves making applications better and appealing. You can talk to him about Design, Development, and Open-source!",
-    imagePath: "/assets/shivam.jpeg",
+      "Shivam Shekhar is an undergraduate student from SRMIST, Kattankulathur. Shivam is a keen UI/UX Designer, and he loves making applications better and appealing. He is a founding member and an administrator at GitHub Community SRM, developing and maintaing open source projects. You can talk to him about Design, Development, and Open-source!",
+    imagePath: "/assets/shivam.png",
   },
 ];
 
