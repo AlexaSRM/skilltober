@@ -11,6 +11,7 @@ const Footer = () => {
             href="https://www.instagram.com/alexadevsrm/"
             target="_blank"
             rel="noopener noreferrer"
+            title="Alexa Developers SRM on Instagram"
           >
             <SvgRenderer filePath="/assets/Instagram.svg" />
           </a>
@@ -18,10 +19,14 @@ const Footer = () => {
             href="https://www.linkedin.com/company/alexa-developers-srm/"
             target="_blank"
             rel="noopener noreferrer"
+            title="Alexa Developers SRM on LinkedIn"
           >
             <SvgRenderer filePath="/assets/LinkedIn.svg" />
           </a>
-          <a href="mailto:hello@alexadevsrm.com">
+          <a
+            href="mailto:hello@alexadevsrm.com"
+            title="Email Alexa Developers SRM"
+          >
             <SvgRenderer filePath="/assets/Mail.svg" />
           </a>
         </div>
@@ -34,6 +39,7 @@ const Footer = () => {
             href="https://www.instagram.com/schoolofcomputingsrmist/"
             target="_blank"
             rel="noopener noreferrer"
+            title="School of Computing on Instagram"
           >
             <SvgRenderer filePath="/assets/Instagram.svg" />
           </a>
@@ -41,6 +47,7 @@ const Footer = () => {
             href="https://www.linkedin.com/company/school-of-computing-srmist/"
             target="_blank"
             rel="noopener noreferrer"
+            title="School of Computing on LinkedIn"
           >
             <SvgRenderer filePath="/assets/LinkedIn.svg" />
           </a>
@@ -54,6 +61,7 @@ const Footer = () => {
             href="https://www.instagram.com/githubsrm/"
             target="_blank"
             rel="noopener noreferrer"
+            title="GitHub Community SRM on Instagram"
           >
             <SvgRenderer filePath="/assets/Instagram.svg" />
           </a>
@@ -61,10 +69,14 @@ const Footer = () => {
             href="https://www.linkedin.com/company/githubsrm/mycompany/"
             target="_blank"
             rel="noopener noreferrer"
+            title="GitHub Community SRM on LinkedIn"
           >
             <SvgRenderer filePath="/assets/LinkedIn.svg" />
           </a>
-          <a href="mailto:community@githubsrm.tech">
+          <a
+            href="mailto:community@githubsrm.tech"
+            title="Email GitHub Community SRM"
+          >
             <SvgRenderer filePath="/assets/Mail.svg" />
           </a>
         </div>
