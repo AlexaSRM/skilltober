@@ -25,7 +25,7 @@ const About = () => {
       <div className=" md:text-2xl text-xl md:px-40  px-6 pt-6 lg:pb-24 pb-20 md:pb-28 text-center font-font-normal">
         <p className="md:pb-10 pb-4">
           Skilltober is a speaker talk that is organized by Alexa Developers SRM
-          and GitHub Community SRM on 22 October 2021 at 6:00 PM (IST).
+          and GitHub Community SRM on 22 October 2021 at 6:30 PM (IST).
         </p>
         <p>
           Ever wondered about the marvels of Open Source Contribution and what
