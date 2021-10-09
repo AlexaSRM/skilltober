@@ -32,7 +32,7 @@ const speakerArray = [
     name: "Shivam Shekhar",
     designation: "Moderator",
     description:
-      "Shivam Shekhar is an undergraduate student from SRMIST, Kattankulathur. Shivam is a keen UI/UX Designer, and he loves making applications better and appealing. He is a founding member and an administrator at GitHub Community SRM, developing and maintaing open source projects. You can talk to him about Design, Development, and Open-source!",
+      "Shivam Shekhar is an undergraduate student from SRMIST, Kattankulathur. Shivam is a keen UI/UX Designer, and he loves making applications better and appealing. He is a founding member and an administrator at GitHub Community SRM, developing and maintaining open source projects. You can talk to him about Design, Development, and Open-source!",
     imagePath: "/assets/shivam.png",
   },
 ];
