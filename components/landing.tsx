@@ -4,15 +4,13 @@ import SvgRenderer from "./svgRenderer";
 
 const Landing = () => {
   return (
-    <div className="text-textPrimary font-primary relative h-screen w-full flex flex-col items-center">
+    <div className="text-textPrimary font-primary relative w-full flex flex-col items-center">
       <span className="bottom-1 absolute m-auto opacity-20 md:opacity-100">
         <SvgRenderer filePath="/assets/mainPage_flower.svg" />
       </span>
-
       <span className="top-1 absolute m-auto opacity-20 md:opacity-100 transform rotate-180">
         <SvgRenderer filePath="/assets/mainPage_flower.svg" />
       </span>
-
       <div className="flex flex-col justify-between relative sm:mt-40 text-center mt-20">
         <div className="relative flex justify-between text-base sm:flex-row flex-col">
           <div className="m-auto">
