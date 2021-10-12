@@ -28,7 +28,7 @@ const Speaker: FunctionComponent<SpeakerPropsType> = ({
           <h6 className="text-red-600 pb-5 md:text-base text-sm">
             {designation}
           </h6>
-          <p className="pb-6 md:text-lg text-base ">{description}</p>
+          <p className="pb-6 md:text-lg text-base text-justify sm:text-left">{description}</p>
         </div>
       </div>
     </div>
